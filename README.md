@@ -1,2 +1,2 @@
-# hello-world
-Hello World
+# ITM352 Stuff
+Stuff for ITM352
