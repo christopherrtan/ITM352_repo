@@ -1,3 +1,4 @@
+
 const store_name = "Christopher";
 top_title.innerHTML = (store_name + "'s Used Smart Phone Store");
 
