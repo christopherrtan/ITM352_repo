@@ -45,3 +45,8 @@ function addNewRow() {
     `;
 };
 
+//add a click event listener
+document.addEventListener('DOMContentLoaded', function () {
+    let table = document.querySelector('table');
+    table.addEventListener('click', addNewRow);
+});
