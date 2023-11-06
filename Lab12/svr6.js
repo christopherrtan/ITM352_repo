@@ -1,12 +1,8 @@
-//svr.6.js
-
 let express = require('express');
 let app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-
-// part 2a
 app.get('/test', function (req, res) {
     res.send('app get for test was executed');
     console.log('app.get for test was executed');
