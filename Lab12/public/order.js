@@ -15,7 +15,7 @@ productDetailsDiv.innerHTML = `<h3>${products[0]["brand"]} at \$${products[0]["p
 
 // select the div where the product list should be displayed
 let productListDiv = document.getElementById('productList');
-// iterat through the products and display their sold counts
+// iterate through the products and display their sold counts
 for (let i in products) {
     productListDiv.innerHTML +=`<h4>${products[i]["total_sold"]} ${products[i]["brand"]} have been sold!</h4>`;
 }
